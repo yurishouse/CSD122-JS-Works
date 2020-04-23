@@ -1,0 +1,13 @@
+prompt for number A
+prompt for number B
+prompt for operator in { add, subtract, multiply, divide }
+switch operator:
+    case add:
+        return A+B
+    case subtract:
+        return A-B
+    case multiply:
+        return A*B
+    case divide:
+        return A/B
+
