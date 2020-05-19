@@ -54,7 +54,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
+    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229" restartOnDisconnect="true">
       <method v="2" />
     </configuration>
   </component>
@@ -77,6 +77,7 @@
       <workItem from="1588562403914" duration="991000" />
       <workItem from="1589168153700" duration="1361000" />
       <workItem from="1589356226469" duration="3907000" />
+      <workItem from="1589424695572" duration="1425000" />
     </task>
     <servers />
   </component>
@@ -96,10 +97,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588141257786">
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589424745314">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588141257786" />
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589424745314" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1587605079175">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -32,28 +32,19 @@ function decipher(encryptedText) {
     return plainText;
 }
 
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
-
-readline.question(`Do you want to Encode(1) or Decode(2): `, (choice) => {
-    if (choice == 1);
-    readline.question(`Enter the text you want to encode: `,(Texts) => {
+const readline = require('readline-sync');
+const choice = readline.question(`Do you want to Encode(1) or Decode(2): `);
+const Texts = readline.question(`Enter the text you want to encode / decode: `);
+if (choice == 1){
         console.log(`This is the encrypted text`);
         console.log(cipher(Texts));
-        readline.close();
-    })
-    if (choice == 2);
-    readline.question(`Enter the text you want to decode: `,(Texts) => {
+    }
+    if (choice == 2){
         console.log(`This is the decrypted text`);
         console.log(decipher(Texts));
-        readline.close();
-    })
+    }
     if (choice != 1 & choice != 2)
         console.log(`Error, please enter 1 or 2`);
-    readline.close()
-})
 
 
 
